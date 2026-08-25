@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="logoTitle">
-  <title id="logoTitle">Az Auto Glass LLC logo</title>
-  <path d="M32 4 L56 12 V30 C56 46 46 56 32 60 C18 56 8 46 8 30 V12 Z" fill="#1e4e8c"/>
-  <path d="M32 10 L50 16 V29 C50 42 42.5 50.5 32 54 C21.5 50.5 14 42 14 29 V16 Z" fill="#ffffff" opacity="0.12"/>
-  <path d="M22 30 L28 22 L34 30 L30 30 L27 40 L26 32 L22 32 Z" fill="#c8352e"/>
-</svg>
