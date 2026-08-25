@@ -511,11 +511,17 @@ section {
 }
 
 .hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1.25rem;
-  margin: 1.5rem 0;
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+  }
 }
 
 .trust-badges {
