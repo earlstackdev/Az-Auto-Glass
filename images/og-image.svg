@@ -2,7 +2,7 @@
   <rect width="1200" height="630" fill="#1e4e8c"/>
   <path d="M600 90 L720 130 V220 C720 300 670 350 600 380 C530 350 480 300 480 220 V130 Z" fill="#ffffff" opacity="0.08"/>
   <path d="M565 200 L590 178 L615 200 L602 200 L592 240 L588 210 L565 210 Z" fill="#c8352e"/>
-  <text x="600" y="470" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">[BUSINESS NAME]</text>
+  <text x="600" y="470" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">Az Auto Glass</text>
   <text x="600" y="520" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#c8352e" text-anchor="middle">Windshield Repair &amp; Auto Glass Replacement</text>
-  <text x="600" y="560" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#c3ced9" text-anchor="middle">[CITY, STATE]</text>
+  <text x="600" y="560" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#c3ced9" text-anchor="middle">Spokane, WA</text>
 </svg>
