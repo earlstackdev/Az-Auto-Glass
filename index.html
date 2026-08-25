@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[BUSINESS NAME] | Windshield Repair &amp; Auto Glass Replacement in [CITY, STATE]</title>
+  <meta name="description" content="[BUSINESS NAME] provides fast, professional windshield repair and auto glass replacement in [CITY, STATE]. Mobile service available. Call (555) 555-5555 for a free quote.">
+  <meta name="theme-color" content="#1E4E8C">
+  <link rel="canonical" href="https://www.yourbusinessdomain.com/">
+
+  <!-- Open Graph -->
+  <!-- Most social platforms require a raster image (JPG/PNG, ~1200x630) for
+       og:image and will not render an SVG preview. images/og-image.svg is a
+       placeholder layout — export it (or a real photo) to og-image.jpg and
+       update the path below before launch. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[BUSINESS NAME] | Windshield Repair & Auto Glass Replacement in [CITY, STATE]">
+  <meta property="og:description" content="Fast, professional windshield repair and auto glass replacement in [CITY, STATE]. Mobile service available. Get a free quote today.">
+  <meta property="og:image" content="images/og-image.svg">
+  <meta property="og:url" content="https://www.yourbusinessdomain.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Local business structured data — update every field below to match your business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "[BUSINESS NAME]",
+    "image": "https://www.yourbusinessdomain.com/images/hero-repair.png",
+    "telephone": "+15555555555",
+    "email": "info@yourbusinessdomain.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[STREET ADDRESS]",
+      "addressLocality": "[CITY]",
+      "addressRegion": "[STATE]",
+      "postalCode": "[ZIP]",
+      "addressCountry": "US"
+    },
+    "areaServed": "[CITY, STATE] and surrounding areas",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "url": "https://www.yourbusinessdomain.com/"
+  }
+  </script>
+</head>
+<body>
+  <!--
+    ============================================================
+    TEMPLATE CUSTOMIZATION GUIDE
+    ============================================================
+    Search and replace the following placeholders throughout this
+    file to launch your site:
+
+      [BUSINESS NAME]            Your business name
+      (555) 555-5555 / +15555555555   Phone number (update the visible
+                                  text AND every tel: link)
+      [EMAIL ADDRESS] / info@yourbusinessdomain.com   Business email
+      [STREET ADDRESS], [CITY], [STATE] [ZIP]   Business address
+      [CITY, STATE]               Primary service city/region
+      [Owner Name]                 Owner / technician name
+      Sample reviews in the "Reviews" section — replace with real
+        customer reviews (do not label them as Google reviews unless
+        they are actual, verified Google reviews)
+      images/*.svg                 Replace with real photos of your
+                                  shop, technicians and vehicles
+      style.css :root variables      Brand colors, fonts, spacing
+      Google Maps embed              See comment in the Contact section
+    ============================================================
+  -->
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo-link" aria-label="[BUSINESS NAME] — home">
+        <img src="images/logo.svg" alt="" width="42" height="42" class="logo-icon">
+        <span class="logo-text">[BUSINESS NAME]</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+15555555555" class="phone-cta phone-cta--header">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+          <span>Call Now: <strong>(555) 555-5555</strong></span>
+        </a>
+
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+15555555555" class="btn btn-accent btn-block">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+        Call Now: (555) 555-5555
+      </a>
+      <a href="#contact" class="btn btn-secondary btn-block">Get a Free Quote</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="section-eyebrow">[CITY, STATE]'s Trusted Auto Glass Experts</p>
+          <h1>Professional Auto Glass Repair &amp; Replacement in [CITY, STATE]</h1>
+          <p class="hero-lede">Fast, professional windshield repair and replacement for cars, trucks and commercial vehicles. Our experienced technicians come to you with mobile service available throughout the [CITY] area, so you can get back on the road safely without disrupting your day.</p>
+
+          <ul class="hero-bullets">
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              Windshield Repair &amp; Replacement
+            </li>
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              Cars, Trucks &amp; Commercial Vehicles
+            </li>
+            <li>
+              <svg class="icon icon--check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+              Fast Mobile Service Available
+            </li>
+          </ul>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-accent btn-lg">Get a Free Quote</a>
+            <a href="tel:+15555555555" class="phone-cta phone-cta--inline">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+              <span class="phone-cta-text-mobile">Call Now</span>
+              <span class="phone-cta-text-desktop">Call Now: <strong>(555) 555-5555</strong></span>
+            </a>
+          </div>
+
+          <!-- Placeholder trust indicators — replace with your verified rating once you have reviews live -->
+          <div class="trust-badges">
+            <div class="trust-badge"><span class="trust-badge-icon" aria-hidden="true">★</span> 5.0 Customer Rating</div>
+            <div class="trust-badge"><span class="trust-badge-icon" aria-hidden="true">✓</span> Warranty Available</div>
+            <div class="trust-badge"><span class="trust-badge-icon" aria-hidden="true">🌐</span> English &amp; Spanish</div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img src="images/hero-repair.png" alt="Technician using suction cup tools to install a windshield on a vehicle" width="782" height="514" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="container">
+        <p class="section-eyebrow section-eyebrow--center">What We Do</p>
+        <h2 class="section-title section-title--center">Our Auto Glass Services</h2>
+        <p class="section-lede section-lede--center">From small chip repairs to full commercial fleet glass, our technicians handle it with quality materials and careful installation.</p>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M12 7l-1.5 3.5 1.5 1.5-1 4"/></svg>
+            </div>
+            <h3>Windshield Repair &amp; Replacement</h3>
+            <p>Professional windshield repair and replacement using quality glass and installation materials, done right the first time.</p>
+            <a href="#contact" class="card-link">Get a Quote <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="7" width="13" height="9" rx="1"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="5.5" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/></svg>
+            </div>
+            <h3>Semi-Truck &amp; Heavy Vehicle Glass</h3>
+            <p>Specialized auto glass services for semi-trucks, commercial vehicles and other large vehicles, minimizing downtime.</p>
+            <a href="#contact" class="card-link">Get a Quote <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+            </div>
+            <h3>Sunroof Glass</h3>
+            <p>Professional sunroof glass installation and replacement designed for a proper, leak-resistant fit.</p>
+            <a href="#contact" class="card-link">Get a Quote <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V8.5A1.5 1.5 0 014.5 7H13l4.5 4.5V16a1 1 0 01-1 1H4a1 1 0 01-1-1z"/><circle cx="8" cy="17.5" r="1.6"/><circle cx="16.5" cy="17.5" r="1.6"/></svg>
+            </div>
+            <h3>Mobile Auto Glass Service</h3>
+            <p>Convenient mobile service where our technician comes to your home, office or work site &mdash; no need to change your schedule.</p>
+            <a href="#contact" class="card-link">Get a Quote <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+            </div>
+            <h3>Full Glass Installation</h3>
+            <p>Complete vehicle glass services including door glass, back glass, mirrors and other vehicle glass components.</p>
+            <a href="#contact" class="card-link">Get a Quote <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUR STORY ============ -->
+    <section class="story" id="about">
+      <div class="container story-inner">
+        <div class="story-media">
+          <img src="images/owner-family.png" alt="[Owner Name] with the [BUSINESS NAME] team in the shop" width="814" height="534">
+        </div>
+        <div class="story-content">
+          <p class="section-eyebrow">Our Story</p>
+          <h2>Family-Owned, Locally Trusted</h2>
+          <p>Hi, I&rsquo;m [Owner Name], founder of [BUSINESS NAME]. I&rsquo;ve spent over 30 years in the auto glass business, and I started this company because I was tired of watching customers get pushed into replacements they didn&rsquo;t need, or handed a bill that didn&rsquo;t make sense.</p>
+          <p>Our shop is built on honest recommendations and fair, transparent pricing. If your windshield can be repaired instead of replaced, we&rsquo;ll tell you &mdash; and we&rsquo;ll always walk you through your options before any work begins.</p>
+          <p>We&rsquo;re proud to serve [CITY, STATE] with quality workmanship and service in both English and Spanish, and we treat every customer the way we&rsquo;d want our own family treated: with respect, honesty and a job done right.</p>
+          <a href="#contact" class="btn btn-secondary">Talk to Our Team</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="why-us">
+      <div class="container">
+        <p class="section-eyebrow section-eyebrow--center">The [BUSINESS NAME] Difference</p>
+        <h2 class="section-title section-title--center">Why Choose [BUSINESS NAME]?</h2>
+
+        <div class="benefit-grid">
+          <div class="benefit-item">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></svg></div>
+            <h3>30+ Years of Experience</h3>
+            <p>Decades of hands-on auto glass expertise you can count on.</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12l3 6-9 12L3 9z"/><path d="M3 9h18M9 3l3 6 3-6"/></svg></div>
+            <h3>Quality Auto Glass</h3>
+            <p>We install quality glass and materials built to last.</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 01-8.4 8.4 8.3 8.3 0 01-3.8-.9L3 21l1.9-5.7a8.3 8.3 0 01-.9-3.8A8.4 8.4 0 0112.5 3H13a8.5 8.5 0 018 8v.5z"/></svg></div>
+            <h3>Honest Recommendations</h3>
+            <p>We&rsquo;ll always tell you if a repair is enough &mdash; no upselling.</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 12.3L12 3.7 4 3.7v8L12.6 20.3a1 1 0 001.4 0l6.6-6.6a1 1 0 000-1.4z"/><circle cx="8.5" cy="8.5" r="1.5"/></svg></div>
+            <h3>Competitive Pricing</h3>
+            <p>Fair, transparent pricing with no surprise fees.</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16V8.5A1.5 1.5 0 014.5 7H13l4.5 4.5V16a1 1 0 01-1 1H4a1 1 0 01-1-1z"/><circle cx="8" cy="17.5" r="1.6"/><circle cx="16.5" cy="17.5" r="1.6"/></svg></div>
+            <h3>Mobile Service</h3>
+            <p>We come to your home, office or job site for your convenience.</p>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg></div>
+            <h3>Warranty Available</h3>
+            <p>Ask us about warranty coverage on our workmanship and materials.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <p class="section-eyebrow section-eyebrow--center">Customer Reviews</p>
+        <h2 class="section-title section-title--center">What Our Customers Say</h2>
+
+        <!-- Sample rating summary — update once real reviews are live -->
+        <div class="rating-summary">
+          <span class="rating-summary-score">5.0 <span aria-hidden="true">★★★★★</span></span>
+          <span class="rating-summary-count">Based on [X] customer reviews</span>
+        </div>
+
+        <!-- SAMPLE REVIEWS BELOW — replace with real, verified customer reviews before launch.
+             Do not label these as Google reviews unless they are actual Google reviews. -->
+        <div class="review-featured">
+          <p class="review-stars" aria-label="5 out of 5 stars">★★★★★</p>
+          <p class="review-text review-text--featured">&ldquo;Our technician showed up early, explained everything before starting, and had our windshield replaced in under an hour. Fair price and genuinely nice people to work with. Highly recommend.&rdquo;</p>
+          <p class="review-author">&mdash; Sarah M., [CITY, STATE]</p>
+        </div>
+
+        <div class="card-grid card-grid--reviews">
+          <article class="review-card">
+            <p class="review-stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <p class="review-text">&ldquo;Chip repair looked seamless and only took about 20 minutes. Saved me from a full replacement. Great service.&rdquo;</p>
+            <p class="review-author">&mdash; James T.</p>
+          </article>
+          <article class="review-card">
+            <p class="review-stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <p class="review-text">&ldquo;They came out to my office for the appointment, which made everything so easy. Very professional crew.&rdquo;</p>
+            <p class="review-author">&mdash; Maria R.</p>
+          </article>
+          <article class="review-card">
+            <p class="review-stars" aria-label="5 out of 5 stars">★★★★★</p>
+            <p class="review-text">&ldquo;Got a fair quote over the phone and the final price matched exactly. No surprises. Will use again.&rdquo;</p>
+            <p class="review-author">&mdash; David K.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <!-- <section class="faq">
+      <div class="container container--narrow">
+        <p class="section-eyebrow section-eyebrow--center">Questions?</p>
+        <h2 class="section-title section-title--center">Frequently Asked Questions</h2>
+
+        <div class="accordion" id="faq-list">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-1" id="faq-trigger-1">
+                How much does windshield replacement cost?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-1" class="accordion-panel" role="region" aria-labelledby="faq-trigger-1" hidden>
+              <p>Cost depends on your vehicle's make and model, the type of glass required, and any advanced driver-assistance (ADAS) calibration needed. Contact us or fill out the quote form for an accurate, free estimate.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-2" id="faq-trigger-2">
+                Can my windshield be repaired instead of replaced?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-2" class="accordion-panel" role="region" aria-labelledby="faq-trigger-2" hidden>
+              <p>Often, yes. Small chips and cracks &mdash; generally smaller than a quarter and away from the edge of the glass &mdash; can usually be repaired. We'll always recommend a repair over a replacement when it's a safe, lasting option.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-3" id="faq-trigger-3">
+                Do you offer mobile auto glass service?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-3" class="accordion-panel" role="region" aria-labelledby="faq-trigger-3" hidden>
+              <p>Yes. Our technicians can come to your home, office or job site throughout [CITY, STATE] and the surrounding area, so you don't have to interrupt your day.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-4" id="faq-trigger-4">
+                How long does windshield replacement take?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-4" class="accordion-panel" role="region" aria-labelledby="faq-trigger-4" hidden>
+              <p>Most windshield replacements take about 45&ndash;90 minutes, plus safe drive-away time for the adhesive to cure. Your technician will let you know exactly how long before starting.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-5" id="faq-trigger-5">
+                Do you work with insurance?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-5" class="accordion-panel" role="region" aria-labelledby="faq-trigger-5" hidden>
+              <p>Yes, we're happy to work with your insurance provider and can help you understand your glass coverage options. Contact us with your policy details and we'll walk you through the process.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-6" id="faq-trigger-6">
+                What areas do you service?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-6" class="accordion-panel" role="region" aria-labelledby="faq-trigger-6" hidden>
+              <p>We serve [CITY, STATE] and the surrounding communities. Contact us and we'll let you know if we cover your area.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-7" id="faq-trigger-7">
+                Do you replace side and rear glass?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-7" class="accordion-panel" role="region" aria-labelledby="faq-trigger-7" hidden>
+              <p>Yes. In addition to windshields, we install door glass, back glass, mirrors and other vehicle glass components.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="faq-panel-8" id="faq-trigger-8">
+                How soon can I get an appointment?
+                <svg class="accordion-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+            </h3>
+            <div id="faq-panel-8" class="accordion-panel" role="region" aria-labelledby="faq-trigger-8" hidden>
+              <p>We often have same-day or next-day appointments available, depending on your schedule and part availability. Call us or request a quote to check current availability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ============ CONTACT / QUOTE ============ -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-info">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2>Request Your Free Quote</h2>
+          <p class="contact-intro">Reach out by phone or fill out the form and we&rsquo;ll get back to you quickly with a free, no-obligation quote.</p>
+
+          <ul class="contact-details">
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+15555555555" class="phone-cta phone-cta--inline">
+                  <span class="phone-cta-text-mobile">Call Now</span>
+                  <span class="phone-cta-text-desktop">Call Now: <strong>(555) 555-5555</strong></span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:info@yourbusinessdomain.com">info@yourbusinessdomain.com</a>
+              </div>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              <div>
+                <span class="contact-label">Business Hours</span>
+                <span>Mon&ndash;Fri: 8:00 AM &ndash; 6:00 PM<br>Saturday: 9:00 AM &ndash; 2:00 PM<br>Sunday: Closed</span>
+              </div>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <div>
+                <span class="contact-label">Service Area</span>
+                <span>[CITY, STATE] &amp; surrounding areas &mdash; mobile service available</span>
+              </div>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 2v4M16 2v4"/></svg>
+              <div>
+                <span class="contact-label">Address</span>
+                <span>[STREET ADDRESS]<br>[CITY], [STATE] [ZIP]</span>
+              </div>
+            </li>
+          </ul>
+
+          <!--
+            Google Maps embed placeholder.
+            Replace the div below with your real embed, for example:
+
+            <iframe
+              src="https://www.google.com/maps?q=YOUR+FULL+ADDRESS&output=embed"
+              width="100%" height="320" style="border:0" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="[BUSINESS NAME] location map">
+            </iframe>
+          -->
+          <div class="map-placeholder" role="img" aria-label="Map placeholder — add your Google Maps embed here">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <p>Google Maps embed goes here &mdash; see code comment for the snippet</p>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h3 class="form-title">Get a Free Quote</h3>
+
+          <form name="quote-request" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="bot-field" id="quote-form" class="quote-form" novalidate>
+            <input type="hidden" name="form-name" value="quote-request">
+
+            <p class="honeypot-field">
+              <label for="bot-field">Leave this field blank</label>
+              <input type="text" id="bot-field" name="bot-field" tabindex="-1" autocomplete="off">
+            </p>
+
+            <fieldset class="form-fieldset">
+              <legend>Customer Information</legend>
+              <div class="form-group">
+                <label for="full-name">Full Name <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+              </div>
+              <div class="form-row form-row--split">
+                <div class="form-group">
+                  <label for="phone-number">Phone Number <span class="required" aria-hidden="true">*</span></label>
+                  <input type="tel" id="phone-number" name="phone-number" autocomplete="tel" inputmode="tel" placeholder="(555) 555-5555" required>
+                </div>
+                <div class="form-group">
+                  <label for="email-address">Email <span class="required" aria-hidden="true">*</span></label>
+                  <input type="email" id="email-address" name="email-address" autocomplete="email" required>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend>Vehicle Information</legend>
+              <div class="form-row form-row--triple">
+                <div class="form-group">
+                  <label for="vehicle-year">Vehicle Year</label>
+                  <input type="number" id="vehicle-year" name="vehicle-year" min="1980" max="2030" inputmode="numeric" placeholder="2020">
+                </div>
+                <div class="form-group">
+                  <label for="vehicle-make">Vehicle Make</label>
+                  <input type="text" id="vehicle-make" name="vehicle-make" placeholder="Toyota">
+                </div>
+                <div class="form-group">
+                  <label for="vehicle-model">Vehicle Model</label>
+                  <input type="text" id="vehicle-model" name="vehicle-model" placeholder="Camry">
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend>Service Needed</legend>
+              <div class="form-group">
+                <label for="service-type">What do you need? <span class="required" aria-hidden="true">*</span></label>
+                <select id="service-type" name="service-type" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="Windshield Repair">Windshield Repair</option>
+                  <option value="Windshield Replacement">Windshield Replacement</option>
+                  <option value="Semi-Truck / Heavy Vehicle Glass">Semi-Truck / Heavy Vehicle Glass</option>
+                  <option value="Sunroof Glass">Sunroof Glass</option>
+                  <option value="Door Glass">Door Glass</option>
+                  <option value="Back Glass">Back Glass</option>
+                  <option value="Mirror">Mirror</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-fieldset">
+              <legend>Additional Information</legend>
+              <div class="form-group">
+                <label for="details">Tell us about the damage or service you need</label>
+                <textarea id="details" name="details" rows="4" placeholder="Example: small crack on the driver's side, about 3 inches long..."></textarea>
+              </div>
+            </fieldset>
+
+            <div class="form-group form-group--checkbox">
+              <input type="checkbox" id="consent" name="consent" value="yes" required>
+              <label for="consent">I agree to be contacted regarding my quote request. <span class="required" aria-hidden="true">*</span></label>
+            </div>
+
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+
+            <button type="submit" class="btn btn-accent btn-lg btn-block" id="form-submit">Request My Free Quote</button>
+            <p class="form-required-note">* Required field</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo-link" aria-label="[BUSINESS NAME] — home">
+          <img src="images/logo.svg" alt="" width="36" height="36" class="logo-icon">
+          <span class="logo-text">[BUSINESS NAME]</span>
+        </a>
+        <p>Locally owned auto glass repair and replacement, proudly serving [CITY, STATE] and surrounding areas.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="tel:+15555555555">(555) 555-5555</a></p>
+        <p><a href="mailto:info@yourbusinessdomain.com">info@yourbusinessdomain.com</a></p>
+        <p>[STREET ADDRESS], [CITY], [STATE] [ZIP]</p>
+        <p>Mon&ndash;Fri: 8AM&ndash;6PM &middot; Sat: 9AM&ndash;2PM</p>
+        <p>Serving [CITY, STATE] &amp; surrounding areas</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="current-year">2026</span> [BUSINESS NAME]. All rights reserved.</p>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ MOBILE STICKY CTA BAR ============ -->
+  <div class="mobile-cta-bar" aria-label="Quick actions">
+    <a href="tel:+15555555555" class="mobile-cta-bar-btn mobile-cta-bar-btn--call">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+      Call Now
+    </a>
+    <a href="#contact" class="mobile-cta-bar-btn mobile-cta-bar-btn--quote">Get a Free Quote</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

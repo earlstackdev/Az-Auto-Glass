@@ -1,0 +1,690 @@
+Create a complete, production-ready **windshield repair and auto glass website template** designed specifically for local auto glass businesses.
+
+The primary goal of this website is **lead generation and phone calls**, not simply presenting information. The design should make it extremely easy for a visitor to call the business or request a quote.
+
+Build this as a **reusable template** that can easily be customized for different windshield repair/auto glass businesses by changing the business name, logo, phone number, service area, reviews, images, colors, and business information.
+
+## TECHNICAL REQUIREMENTS
+
+* Use clean, semantic HTML5, CSS3, and vanilla JavaScript.
+* Do not introduce unnecessary frameworks or dependencies.
+* The site must be fully responsive and mobile-first.
+* It will be deployed on **Netlify**.
+* The quote/contact form MUST be implemented correctly for Netlify Forms.
+* Make sure the form includes the proper Netlify attributes and hidden honeypot field.
+* The form should work after deployment without requiring a custom backend.
+* Use accessible labels for every form field.
+* Include proper form validation.
+* Make the site SEO-friendly with semantic HTML, appropriate heading hierarchy, title/meta description placeholders, descriptive image alt text, and local-business-friendly content structure.
+* Optimize for fast loading.
+* Avoid unnecessary animations that hurt performance.
+* Use reusable CSS classes and keep the code organized.
+* Do not hard-code content in JavaScript when it can be handled in HTML.
+* Do not use placeholder lorem ipsum.
+* Use realistic placeholder business content that clearly indicates where a business owner would customize it.
+
+---
+
+# WEBSITE STRUCTURE
+
+Follow this general order while also incorporating strong lead-generation principles.
+
+## 1. NAVIGATION HEADER
+
+Create a professional sticky/fixed navigation header.
+
+Include:
+
+* Business logo
+* Business name
+* Navigation links:
+
+  * Services
+  * About Us
+  * Reviews
+  * Contact
+* Phone number
+
+### Desktop behavior
+
+On desktop, the phone number should **NOT look like a button**.
+
+It should simply be text with a phone icon:
+
+**Call Now: (555) 555-5555**
+
+The phone number should still be clickable with a `tel:` link, but visually it should look like normal navigation/contact text rather than a large button.
+
+Do NOT put the desktop phone number inside a filled button.
+
+### Mobile behavior
+
+On mobile, make calling much more prominent.
+
+The phone number should become a clear **Call Now button**.
+
+Also consider a sticky mobile CTA bar at the bottom of the screen containing:
+
+**Call Now** | **Get a Free Quote**
+
+The mobile version should prioritize immediate conversion.
+
+---
+
+# 2. HERO SECTION
+
+The hero should immediately communicate:
+
+1. What the business does
+2. Where it operates
+3. Why customers should trust it
+4. What the visitor should do next
+
+Use a strong headline such as:
+
+**Professional Auto Glass Repair & Replacement in [CITY]**
+
+Create a supporting paragraph emphasizing fast, professional service and mobile availability.
+
+Include a prominent primary CTA:
+
+**Get a Free Quote**
+
+The CTA should scroll the visitor to the quote/contact form.
+
+Also include a secondary phone CTA.
+
+On desktop, the phone number should follow the same rule as the navigation:
+
+**Call Now: (555) 555-5555**
+
+It should be clickable text, NOT a button.
+
+On mobile, it should become a prominent Call Now button.
+
+### Hero trust/value bullets
+
+Include approximately 3 concise bullets such as:
+
+* Windshield Repair & Replacement
+* Cars, Trucks & Commercial Vehicles
+* Fast Mobile Service Available
+
+These should be visually easy to scan.
+
+### Trust badges
+
+Include 3 prominent trust badges:
+
+* ★ 5.0 Customer Rating
+* ✓ Warranty Available
+* 🌐 English & Spanish
+
+Make these visually polished and professional.
+
+Do NOT invent actual business ratings. Use clearly customizable placeholder content.
+
+### Hero image
+
+Use a high-quality auto-glass-related image or image placeholder.
+
+The design should support replacing the image with the customer's real vehicle/technician photography.
+
+The hero should feel premium and trustworthy rather than like a generic template.
+
+---
+
+# 3. OUR AUTO GLASS INSTALLATION SERVICES
+
+Create a section titled:
+
+**Our Auto Glass Services**
+
+Use a clean card/grid layout.
+
+Include these service categories:
+
+### Windshield Repair & Replacement
+
+Professional windshield repair and replacement using quality glass and installation materials.
+
+### Semi-Truck & Heavy Vehicle Glass
+
+Specialized auto glass services for semi-trucks, commercial vehicles, and other large vehicles.
+
+### Sunroof Glass
+
+Professional sunroof glass installation and replacement designed for a proper, leak-resistant fit.
+
+### Mobile Auto Glass Service
+
+Convenient mobile service where the technician comes to the customer's location.
+
+### Full Glass Installation
+
+Complete vehicle glass services including:
+
+* Door glass
+* Back glass
+* Mirrors
+* Other vehicle glass
+
+Each service card should include:
+
+* Icon
+* Service name
+* Short description
+* Optional "Learn More" link or CTA
+
+The section should not overwhelm the visitor with huge amounts of text.
+
+---
+
+# 4. LEAD-GENERATION / QUICK QUOTE CTA
+
+Before the About section, add a visually distinct conversion section encouraging visitors who are ready to get started.
+
+Example concept:
+
+**Need Your Auto Glass Fixed?**
+
+Tell us what happened and we'll help you find the right solution.
+
+Button:
+
+**Get My Free Quote**
+
+This should scroll to the contact/quote form.
+
+This section should act as a conversion point for users who have already learned about the services.
+
+---
+
+# 5. OUR STORY
+
+Create an About section titled:
+
+**Our Story**
+
+This section should communicate the human side of the business.
+
+Use placeholder content describing:
+
+* The owner's name
+* 30+ years of auto glass experience
+* Commitment to honest recommendations
+* Fair and transparent pricing
+* Quality workmanship
+* Bilingual communication in English and Spanish
+* Commitment to treating customers with respect
+
+The writing should sound authentic and local rather than corporate.
+
+Include a professional image placeholder for the owner or technician.
+
+Use a layout with image + text on desktop and stacked content on mobile.
+
+Include a CTA such as:
+
+**Talk to Our Team**
+
+which can either link to the quote section or phone number.
+
+---
+
+# 6. WHY CHOOSE US
+
+Add a dedicated trust/conversion section after the story.
+
+Title:
+
+**Why Choose [Business Name]?**
+
+Include 4–6 benefits such as:
+
+* 30+ Years of Experience
+* Quality Auto Glass
+* Honest Recommendations
+* Competitive Pricing
+* Mobile Service
+* English & Spanish Service
+* Warranty Available
+
+Use icons and concise descriptions.
+
+This section should reinforce why someone should choose this business over a competitor.
+
+---
+
+# 7. WHAT OUR CUSTOMERS SAY
+
+Create a reviews/testimonials section titled:
+
+**What Our Customers Say**
+
+Display several customer testimonials with:
+
+* Customer first name/initial
+* 5-star rating
+* Review text
+
+Include one larger featured review.
+
+Make the reviews visually resemble authentic Google-style reviews, but do NOT falsely claim they came from Google unless actual Google reviews are supplied.
+
+Include a customizable rating summary such as:
+
+**5.0 ★**
+**Based on [X] customer reviews**
+
+Make all review content easy to replace.
+
+---
+
+# 8. HOW IT WORKS
+
+Add a simple three-step process.
+
+### 1. Request a Quote
+
+Tell us about your vehicle and what happened.
+
+### 2. Schedule Your Service
+
+Choose a convenient time and location.
+
+### 3. Get Back on the Road
+
+Our technician completes the repair or replacement.
+
+This section should make the process feel easy and reduce hesitation.
+
+---
+
+# 9. REQUEST YOUR FREE QUOTE & CONTACT
+
+This should be one of the most important sections on the website.
+
+Use a two-column desktop layout.
+
+## LEFT SIDE — CONTACT INFORMATION
+
+Display:
+
+**Request Your Free Quote**
+
+Phone number
+
+Email
+
+Business hours
+
+Service area
+
+Mobile service information
+
+Business address
+
+Include a Google Maps embed placeholder.
+
+On desktop, the phone number should appear as clickable text, NOT a button.
+
+On mobile, make the phone number a prominent Call Now button.
+
+## RIGHT SIDE — QUOTE FORM
+
+Create a professional lead-generation form.
+
+The form should collect only information that is actually useful for providing a quote.
+
+Suggested fields:
+
+### Customer Information
+
+* Full Name
+* Phone Number
+* Email
+
+### Vehicle Information
+
+* Vehicle Year
+* Vehicle Make
+* Vehicle Model
+
+### Service Needed
+
+Use a select/dropdown:
+
+* Windshield Repair
+* Windshield Replacement
+* Semi-Truck / Heavy Vehicle Glass
+* Sunroof Glass
+* Door Glass
+* Back Glass
+* Mirror
+* Other
+
+### Additional Information
+
+Textarea:
+
+**Tell us about the damage or service you need**
+
+### Consent
+
+Include a checkbox such as:
+
+"I agree to be contacted regarding my quote request."
+
+Do not make unnecessary legal claims.
+
+### Submit button
+
+Use:
+
+**Request My Free Quote**
+
+After successful submission, display a clear success message.
+
+Example:
+
+**Thank you! Your request has been received. We'll be in touch shortly.**
+
+---
+
+# NETLIFY FORM REQUIREMENTS
+
+This is VERY IMPORTANT.
+
+The quote form must be configured correctly for **Netlify Forms**.
+
+Use the appropriate HTML structure, including:
+
+* `name` attribute on the form
+* `method="POST"`
+* `data-netlify="true"` OR the correct current Netlify Forms implementation
+* Hidden form-name input where required
+* Honeypot spam protection using the appropriate `netlify-honeypot` attribute and hidden field
+* Proper `name` attributes on every input
+* Labels associated with inputs
+* Correct form submission behavior
+
+Do NOT build a custom backend for this form.
+
+The form should be designed so that once the site is deployed to Netlify, submissions can appear in Netlify's Forms dashboard.
+
+If using JavaScript to handle the form, do not accidentally prevent Netlify from detecting/submitting the form.
+
+Make sure the final implementation is actually compatible with Netlify Forms rather than simply looking like a form.
+
+---
+
+# 10. SERVICE AREA
+
+Create a local SEO-friendly service-area section.
+
+Example:
+
+**Serving [CITY] & Surrounding Areas**
+
+Include customizable nearby cities/communities.
+
+Do not use excessive keyword stuffing.
+
+Make it feel natural.
+
+Example:
+
+"We proudly provide auto glass repair and replacement throughout [City] and surrounding communities."
+
+Include a simple map or visual element if appropriate.
+
+---
+
+# 11. FAQ
+
+Create an FAQ section with common auto glass questions.
+
+Include questions such as:
+
+* How much does windshield replacement cost?
+* Can my windshield be repaired instead of replaced?
+* Do you offer mobile auto glass service?
+* How long does windshield replacement take?
+* Do you work with insurance?
+* What areas do you service?
+* Do you replace side and rear glass?
+* How soon can I get an appointment?
+
+Use accessible accordion functionality.
+
+The FAQ should be easy to customize.
+
+---
+
+# 12. FINAL CTA
+
+Before the footer, create a strong final conversion section.
+
+Example:
+
+**Need Auto Glass Service?**
+
+Get a free quote from [Business Name] today.
+
+Buttons/actions:
+
+**Get a Free Quote**
+
+and on mobile:
+
+**Call Now**
+
+Again, on desktop the phone number should be displayed as clickable text rather than a button.
+
+---
+
+# 13. FOOTER
+
+Create a professional footer containing:
+
+* Business logo/name
+* Short business description
+* Quick navigation:
+
+  * Home
+  * Services
+  * About
+  * Reviews
+  * Contact
+  * FAQ
+* Contact information
+* Phone number
+* Business hours
+* Service area
+* Privacy Policy
+* Terms of Service
+* Copyright
+
+Keep the footer clean rather than excessively large.
+
+---
+
+# DESIGN DIRECTION
+
+The site should look like a **premium local auto glass company**, not a generic AI-generated website.
+
+Use:
+
+* Strong typography
+* Excellent spacing
+* High contrast
+* Professional automotive imagery
+* Subtle shadows
+* Clean cards
+* Rounded corners where appropriate
+* Strong CTA hierarchy
+* Professional icons
+* Mobile-first responsive design
+
+The design should communicate:
+
+**Trust + Speed + Professionalism + Local Service**
+
+Avoid:
+
+* Excessive gradients
+* Overly flashy animations
+* Giant amounts of text
+* Generic SaaS-style layouts
+* Excessive glassmorphism
+* Unnecessary animations
+* Stock-template-looking sections
+* Fake statistics
+* Fake reviews
+* Fake certifications
+* Fake Google ratings
+
+---
+
+# CONVERSION STRATEGY
+
+Keep the lead-generation goal in mind throughout the entire site.
+
+The visitor should repeatedly encounter opportunities to:
+
+**Call the business**
+
+or
+
+**Request a free quote**
+
+However, do NOT make every section look like an advertisement.
+
+Use CTAs naturally after important information.
+
+The most important conversion points should be:
+
+1. Navigation
+2. Hero
+3. After services
+4. After About/Why Choose Us
+5. Quote/contact section
+6. Final CTA
+7. Mobile sticky CTA
+
+---
+
+# DESKTOP VS MOBILE PHONE BEHAVIOR
+
+This requirement is especially important.
+
+## Desktop
+
+Phone numbers should look like normal clickable text.
+
+Example:
+
+**Call Now: (555) 555-5555**
+
+It can have a small phone icon and hover effect, but it should NOT be styled as a filled button.
+
+## Mobile
+
+Phone numbers should become prominent buttons.
+
+Example:
+
+**📞 Call Now**
+
+Use the `tel:` link.
+
+The mobile experience should prioritize calling because auto glass customers frequently need service quickly.
+
+---
+
+# RESPONSIVENESS
+
+Test the design conceptually at:
+
+* 320px
+* 375px
+* 390px
+* 430px
+* 768px
+* 1024px
+* 1280px
+* 1440px
+* 1920px
+
+Make sure:
+
+* No horizontal scrolling occurs.
+* Navigation works properly.
+* Forms are easy to use on phones.
+* Buttons have comfortable touch targets.
+* Text doesn't become excessively small.
+* Images don't distort.
+* Cards stack appropriately.
+* The mobile CTA does not cover important content.
+
+---
+
+# TEMPLATE CUSTOMIZATION
+
+Structure the content so another windshield repair business can easily customize:
+
+* Business name
+* Logo
+* Phone
+* Email
+* Address
+* Hours
+* Service area
+* Years of experience
+* Services
+* Reviews
+* Images
+* Colors
+* Social links
+* Warranty information
+* Insurance information
+
+Use obvious placeholder values such as:
+
+`[BUSINESS NAME]`
+
+`[PHONE NUMBER]`
+
+`[CITY, STATE]`
+
+`[EMAIL ADDRESS]`
+
+`[BUSINESS ADDRESS]`
+
+rather than accidentally presenting fictional information as real.
+
+---
+
+# FINAL QUALITY CHECK
+
+Before finishing:
+
+* Verify all navigation links work.
+* Verify all CTA buttons scroll/link correctly.
+* Verify phone links use `tel:`.
+* Verify the desktop phone number is NOT visually a button.
+* Verify mobile phone CTAs ARE buttons.
+* Verify the quote form is properly configured for Netlify Forms.
+* Verify the form has spam protection.
+* Verify every form field has a name.
+* Verify the form is accessible.
+* Verify responsive layouts.
+* Verify there is no horizontal overflow.
+* Verify heading hierarchy.
+* Verify images have alt text.
+* Verify no fake reviews or claims are presented as factual.
+* Verify no lorem ipsum remains.
+* Verify the design looks polished and production-ready.
+
+Build the website completely rather than giving me a conceptual mockup. I want the actual working frontend files/code for the template.

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Windshield replacement illustration</title>
+  <desc id="heroDesc">Placeholder illustration of a vehicle receiving a new windshield. Replace this file with real photography of your shop, technicians or vehicles.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eaf2f8"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" rx="28" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="470" cy="120" r="46" fill="#c8352e" opacity="0.9"/>
+
+  <!-- ground -->
+  <rect x="0" y="470" width="600" height="130" fill="#dde5ec"/>
+  <rect x="0" y="470" width="600" height="10" fill="#c3ced9"/>
+
+  <!-- trust badge -->
+  <circle cx="110" cy="130" r="46" fill="#ffffff" stroke="#1e4e8c" stroke-width="3"/>
+  <path d="M92 130 L104 142 L128 114" fill="none" stroke="#2e7d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- car body -->
+  <g>
+    <path d="M90 430 C90 360 130 330 190 320 L230 260 C240 245 258 236 278 236 L390 236 C412 236 432 248 442 268 L472 320 C520 328 540 360 540 410 L540 430 Z" fill="#1e4e8c"/>
+    <!-- windshield -->
+    <path d="M250 262 L275 262 L262 320 L212 320 Z" fill="#bcd4e6" stroke="#ffffff" stroke-width="3"/>
+    <path d="M295 262 L400 262 L430 320 L280 320 Z" fill="#bcd4e6" stroke="#ffffff" stroke-width="3"/>
+    <!-- crack detail on windshield to signal "repair" -->
+    <path d="M340 268 L332 288 L348 298 L338 316" fill="none" stroke="#c8352e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- door line -->
+    <line x1="330" y1="320" x2="330" y2="420" stroke="#15375f" stroke-width="3"/>
+    <!-- wheels -->
+    <circle cx="185" cy="432" r="34" fill="#1a2530"/>
+    <circle cx="185" cy="432" r="14" fill="#dde5ec"/>
+    <circle cx="445" cy="432" r="34" fill="#1a2530"/>
+    <circle cx="445" cy="432" r="14" fill="#dde5ec"/>
+  </g>
+</svg>
